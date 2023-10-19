@@ -10,10 +10,10 @@ public class Test011 {
 			for (int j = 1; j < 10; j++) {
 				System.out.print(i + "*" + j + "=" + (i * j) + " ");
 			}
-			System.out.println();
+				System.out.println();
 		}
-		System.out.println();
 //	while문으로 구구단 만들기
+		System.out.println();
 		int x = 1;
 		int y = 1;
 		while (x < 10) {
@@ -26,11 +26,12 @@ public class Test011 {
 			System.out.println("");
 		}
 //	do ~ while문으로 구구단 만들기
+		System.out.println();
 		int a = 1;
 		do {
 			int b = 1;
 			do {
-				if (b>5)
+				if (b>10)
 					continue;
 				System.out.print(a + "*" + b + "=" + (a * b)+ " " );
 				b++;
