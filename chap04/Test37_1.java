@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Test37_1 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		int[] score = new int[5];
 		System.out.print("국어 점수: ");
