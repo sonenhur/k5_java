@@ -1,5 +1,17 @@
 package chap04;
 
+class Sub {
+	private String name;
+	private int age;
+	
+	private int sum() {return 0;}
+	public int average() {return 0;}
+}
+//
+//클래스 내에 서브 클래스 만들 수 있음. 
+//그 경우 public은 하나만 있어야 함.
+// private, (default), public의 보인다 안보인다 구분은 {}안이냐 밖이냐로
+
 public class Test40 {
 
 	public static void main(String[] args) {

@@ -6,6 +6,7 @@ public class Armor {
 	// 필드
 	private String name;
 	//↑접근제한자
+	@SuppressWarnings("unused")
 	private int height;
 	int weight;
 	public String color;
