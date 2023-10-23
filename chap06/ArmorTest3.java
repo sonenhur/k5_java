@@ -23,6 +23,7 @@ public class ArmorTest3 {
 	public static void main(String[] args) {
 
 		doWork();
+		
 		// static을 위 필드에 달아서 처음부터 참조할 수 있게 하거나(Test3)
 		// 이 클래스 자체를 객체로 만들어서 doWork가 참조할 수 있게 함(Test2)
 
