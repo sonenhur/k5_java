@@ -7,14 +7,14 @@ public class ArmorTest {
 		Armor suit2 = new Armor();
 		Armor suit3 = new Armor();
 		
-		suit1.setName("mark6");
-		suit1.setHeight(180);
+		suit1.setName();
+		suit1.setHeight();
 		
-		suit2.setName("mark7");
-		suit2.setHeight(170);
+		suit2.setName();
+		suit2.setHeight();
 		
-		suit3.setName("mark8");
-		suit3.setHeight(190);
+		suit3.setName();
+		suit3.setHeight();
 		
 		System.out.println(suit1.getName() + " : " + suit1.getHeight());
 		System.out.println(suit2.getName() + " : " + suit2.getHeight());

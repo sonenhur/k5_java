@@ -1,13 +1,13 @@
 package chap06;
 
-public class Armor {
+public class Armor_practice {
 	private String name;
 	private int height;
 
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName() {
 		this.name = name;
 	}
@@ -19,5 +19,5 @@ public class Armor {
 	public void setHeight() {
 		this.height = height;
 	}
-
 }
+	
