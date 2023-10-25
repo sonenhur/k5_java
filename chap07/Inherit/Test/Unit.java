@@ -3,9 +3,6 @@ package chap07.Inherit.Test;
 public class Unit {
 	private Long health;
 
-	public static Long M2T = 30L;
-	public static Long T2M = 120L;
-	
 	public Unit(Long health) {
 		this.health = health;
 	}
@@ -21,9 +18,10 @@ public class Unit {
 			System.out.println("사망");
 		}
 	}
-
+	public static Long M2T = 30L;
+	public static Long T2M = 120L;
+	
 	public void attack() {
-		System.out.println("공격합니다.");
+		System.out.print("ddddd");
 	}
-
 }
