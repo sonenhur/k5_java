@@ -1,32 +1,30 @@
 package chap07_Test;
 
 public abstract class Geometry {
-	private int[] xArr = new int[4];
-	private int[] yArr = new int[4];
+	private int[] xArr;
+	private int[] yArr;
 
 	void addPoint(int x, int y) {
-		xArr[0] = x;
-		yArr[0] = y;
-	}
-	if(xArr == null) {
-		xArr = new int[i];
-		yArr = new int[i];
-		xArr[0] = x;
-		yArr[0] = y;
-	}
-	else {
-		int tlen = xArr.length;
-		int [] txArr = new int[tlen+1];
-		int [] tyArr = new int[tlen+1];
-		for (int i=0; i<xArr.length; i++) {
-			txArr[i] = xArr[i];
-			tyArr[i] = yArr[i];
+		if(xArr == null) {
+			xArr = new int[1];
+			yArr = new int[1];
+			xArr[0] = x;
+			yArr[0] = y;
+		}
+		else {
+			int tlen = xArr.length;
+			int [] txArr = new int[tlen+1];
+			int [] tyArr = new int[tlen+1];
+			for (int i=0; i<xArr.length; i++) {
+				txArr[i] = xArr[i];
+				tyArr[i] = yArr[i];
+			}
+			txArr[tlen] = x;
+			tyArr[tlen] = y;
+			xArr = txArr;
+			yArr = tyArr;
 		}
 	}
-	txArr[tlen] = x;
-	tyArr[tlen] = y;
-	xArr = txArr;
-	yArr = tyArr;
 
 	public abstract double getLength();
 	public abstract double getArea();
