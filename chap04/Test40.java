@@ -3,9 +3,14 @@ package chap04;
 class Sub {
 	private String name;
 	private int age;
-	
-	private int sum() {return 0;}
-	public int average() {return 0;}
+
+	private int sum() {
+		return 0;
+	}
+
+	public int average() {
+		return 0;
+	}
 }
 //
 //클래스 내에 서브 클래스 만들 수 있음. 

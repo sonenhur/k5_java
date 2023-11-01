@@ -70,7 +70,7 @@ public class MyLinkedList2 {
 	public void print() {
 		if (head == null) {
 			System.out.println("등록된 데이터가 없습니다");
-		} 
+		}
 		System.out.println("등록된 데이터는 다음과 같습니다");
 		Node next = head;
 		while (true) {
@@ -87,7 +87,7 @@ public class MyLinkedList2 {
 			System.out.println(next.data);
 			next = next.prev;
 		}
-		}
+	}
 
 	public static void main(String[] args) {
 		MyLinkedList2 myList = new MyLinkedList2();
