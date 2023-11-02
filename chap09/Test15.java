@@ -8,6 +8,7 @@ public class Test15 {
 
 		int[] data = new int[10];
 		// 배열의 크기를 지정
+		// 데이터는 힙영역에 확보, arr[공간]은 스택에 확보
 		Random r2 = new Random();
 
 		for (int i = 0; i < data.length; i++) {
