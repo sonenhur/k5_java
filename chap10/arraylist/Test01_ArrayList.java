@@ -18,7 +18,7 @@ public class Test01_ArrayList {
 		list.add(p2);
 
 		for (int i = 1; i <= 10; i++) {
-			Student s = new Student("name",i,"major");
+			Student s = new Student("name", i, "major");
 			s.setName("학생" + i);
 			s.setAge(rd.nextInt(20, 30));
 			s.setMajor("컴공");
