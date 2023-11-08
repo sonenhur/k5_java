@@ -14,7 +14,7 @@ class Bag<T>{
 	}
 	
 	void showType() {System.out.println("T의 타입은 " + thing.getClass().getName());}
-}
+} 
 
 class Book{}
 class PencilCase{}
@@ -26,7 +26,7 @@ public class BagTest {
 		Bag<Book> bag = new Bag<>(new Book());
 		Bag<PencilCase> bag2 = new Bag<>(new PencilCase());
 		Bag<Notebook> bag3 = new Bag<>(new Notebook());
-		
+		   
 		bag.showType();
 		bag2.showType();
 		bag3.showType();
