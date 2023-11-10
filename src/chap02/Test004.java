@@ -8,7 +8,7 @@ public class Test004 {
 		System.out.println(a);
 
 		int b = 017; // 8진법
-		@SuppressWarnings("unused")
+
 		int c = 0xf; // 16진법
 		System.out.println(a + " " + b);
 

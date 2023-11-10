@@ -39,10 +39,13 @@ public class BagTest {
 		bag.showType();
 		bag2.showType();
 		bag3.showType();
-		Book book = bag.getThing();
+		
+		Book b = bag.getThing();
 		PencilCase pc = bag2.getThing();
 		Notebook nb = bag3.getThing();
 
-		// bag = bag2;
+//		bag = bag2;
+//		bag2 = bag3;
+		//에러 발생= 좋은거(엄격한 제네릭)
 	}
 }
