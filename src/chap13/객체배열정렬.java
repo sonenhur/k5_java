@@ -1,7 +1,5 @@
 package chap13;
 
-import java.util.Arrays;
-
 class Student implements Comparable<Student> {
 	String sno;  // 학생 번호
 	String sname;  // 학생 이름
@@ -12,7 +10,6 @@ class Student implements Comparable<Student> {
 		this.sno = sno;
 		this.sname = sname;
 	}
-
 
 	@Override
 	public String toString() {// Student 객체를 문자열로 변환하는 메소드
@@ -36,11 +33,10 @@ public class 객체배열정렬 {
 					temp = data[i];
 					data[i] = data[j];
 					data[j] = temp;
-
 				}
 			}
 	}
-
+	
 	public static void main(String[] args) {
 		// Student 객체 배열 생성, 초기화
 		Student[] data = {
