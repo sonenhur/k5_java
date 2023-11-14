@@ -28,9 +28,7 @@ public class 객체배열정렬comparator2 {
 				//sortStudent 메소드		인자						인자
 	static void sortStudent2(Student2[] data, Comparator<Student2> comp) {
 		Arrays.sort(data, comp);
-	} //Arrays.sort() 메소드를 사용해 배열을 정렬
-	  //두 번째 매개변수로 Comparator 객체를 받아서, 이 Comparator의 compare() 메소드를 사용해 배열의 요소들을 비교하고 정렬
-	
+	}
 	public static void main(String[] args) {
 
 		Comparator<Student2> compNo = (s1, s2) -> Integer.parseInt(s1.sno) - Integer.parseInt(s2.sno);
